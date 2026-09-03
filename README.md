@@ -8,6 +8,16 @@
 pip install funaction
 ```
 
+## 最小示例
+
+当前仅有版本号可用，用来验证包已正确安装：
+
+```python
+import funaction
+
+print(funaction.__version__)  # 0.0.1
+```
+
 ---
 
 ## 关于 farfarfun
