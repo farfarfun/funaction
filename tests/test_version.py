@@ -10,5 +10,6 @@ def test_import():
 
 def test_version():
     """`__version__` 必须存在且为非空字符串。"""
+    assert funaction.__annotations__["__version__"] is str
     assert isinstance(funaction.__version__, str)
     assert funaction.__version__
